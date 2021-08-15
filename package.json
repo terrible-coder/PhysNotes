@@ -1,0 +1,29 @@
+{
+  "name": "physnotes",
+  "version": "0.0.1",
+  "description": "Wiki for Physics notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrible-coder/PhysNotes.git"
+  },
+  "keywords": [
+    "wiki",
+    "tiddler",
+    "TiddlyWiki",
+    "physics",
+    "notes"
+  ],
+  "author": "terrible-coder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terrible-coder/PhysNotes/issues"
+  },
+  "homepage": "https://github.com/terrible-coder/PhysNotes#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.1.23"
+  }
+}
