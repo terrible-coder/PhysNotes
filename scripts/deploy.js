@@ -1,6 +1,6 @@
 const ghpages = require("gh-pages");
 
-ghpages.publish("wiki", {
+ghpages.publish(".", {
 	silent: true,
 	add: true,
 	user: {
