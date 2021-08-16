@@ -1,28 +1,64 @@
 version: 2.1
 
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+      - image: circleci/node:12.16.1
+
 jobs:
-  test:
-    docker:
-      - image: cimg/node:15.1
+  prep:
+    <<: *defaults
     steps:
       - checkout
+
       - restore_cache:
-          # See the configuration reference documentation for more details on using restore_cache and save_cache steps
-          # https://circleci.com/docs/2.0/configuration-reference/?section=reference#save_cache
           keys:
             - node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+
       - run:
           name: install packages
           command: npm ci
+
       - save_cache:
           key: node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
           paths:
-            - ~/.npm
+            - node_modules
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
       - run:
-          name: Run Tests
-          command: npm run test
+          name: Building static HTML files
+          command: npm run build
+          
+      - persist_to_workspace:
+          root: ~/repo
+          paths: .
+
+  gh-page:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run:
+          name: Deploy HTML files
+          command: npm run deploy
 
 workflows:
-  orb-free-workflow:
+  version: 2
+
+  package:
     jobs:
-      - test
+      - build:
+          branches:
+            only: main
+
+      - gh-page:
+          requires:
+            - build
+          branches:
+            only: main
