@@ -57,7 +57,14 @@ workflows:
 
   package:
     jobs:
+      - prep:
+          filters:
+            branches:
+              only: main
+
       - build:
+          requires:
+            - prep
           filters:
             branches:
               only: main
