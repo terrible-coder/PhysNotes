@@ -54,11 +54,13 @@ workflows:
   package:
     jobs:
       - build:
-          branches:
-            only: main
+          filters:
+            branches:
+              only: main
 
       - gh-page:
           requires:
             - build
-          branches:
-            only: main
+          filters:
+            branches:
+              only: main
