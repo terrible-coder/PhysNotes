@@ -29,6 +29,7 @@
     "tiddlywiki": "^5.1.23"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "shelljs": "^0.8.4"
   }
 }
