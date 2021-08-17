@@ -1,0 +1,77 @@
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+      - image: circleci/node:12.16.1
+
+jobs:
+  prep:
+    <<: *defaults
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+
+      - run:
+          name: install packages
+          command: npm ci
+
+      - save_cache:
+          key: node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+          paths:
+            - node_modules
+
+      - persist_to_workspace:
+          root: ~/repo
+          paths: .
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run:
+          name: Building static HTML files
+          command: npm run build
+          
+      - persist_to_workspace:
+          root: ~/repo
+          paths: .
+
+  gh-page:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run:
+          name: Deploy HTML files
+          command: npm run deploy
+
+workflows:
+  version: 2
+
+  package:
+    jobs:
+      - prep:
+          filters:
+            branches:
+              only: main
+
+      - build:
+          requires:
+            - prep
+          filters:
+            branches:
+              only: main
+
+      - gh-page:
+          requires:
+            - build
+          filters:
+            branches:
+              only: main
