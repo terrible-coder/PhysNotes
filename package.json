@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "node scripts/create.js --wiki",
     "serve": "node scripts/serve.js --wiki",
+    "list": "node scripts/wiki-list.js",
     "build": "node scripts/build.js",
     "deploy": "node scripts/deploy.js"
   },
