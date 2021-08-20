@@ -46,6 +46,11 @@ push them up to Github with
 git push
 ```
 Now, Github will automatically show you the button to create a pull request (PR)
-against the repository you forked from. Go ahead and create the PR. Hooray! You
+against the repository you forked from.
+
+> :warning: All pull requests due to changes in the tiddlers, content or style,
+> must be made to [staging](https://github.com/terrible-coder/PhysNotes/tree/staging) branch
+
+Go ahead and create the PR. Hooray! You
 just contributed to this project. All you've got to do now is wait a little for
 your proposed changes to make it on the `main` branch.
