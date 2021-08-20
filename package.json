@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node scripts/create.js --wiki",
+    "serve": "node scripts/serve.js --wiki",
     "build": "node scripts/build.js",
     "deploy": "node scripts/deploy.js"
   },
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.4",
+    "yargs": "^17.1.1"
   }
 }
