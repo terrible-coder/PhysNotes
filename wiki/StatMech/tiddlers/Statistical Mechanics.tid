@@ -1,0 +1,19 @@
+created: 20210819170428853
+modified: 20210819172352551
+tags: Index
+title: Statistical Mechanics
+type: text/vnd.tiddlywiki
+
+Statistical mechanics is a mathematical model to study large systems of particles. It uses statistical methods and probability theory to talk about the macroscopic properties of such large systems.
+
+To understand the need of this subject, let us consider a room full of some gas. We want to examine the motion and trajectories of the gas particles to be able to study the entire system accurately. The idea may not pose any difficulty in principle.
+
+Let us consider the $$i$$^^th^^ particle and the forces acting upon it.
+$$
+\vec{F}_i = \sum_j \vec{F}_{ij} + \vec{F}_i^{ext}
+$$
+where $$\vec{F}_{ij}$$ is the interaction force between the $$i$$^^th^^ and $$j$$^^th^^ particles.
+
+Solving all these equations will give us the complete picture of the system at hand. However, before we even begin to try to solve them, let us try to think about how many equations we have to solve. Even a mole of gas will have of the order of $$10^{23}$$ particles. That means $$10^{23}$$ number of equations to solve. Now it begins to seem impossible.
+
+This is why we come up with ways to talk about the overall, externally observable quantities. We use statistical averages of ensembles to give us results which may not be accurate for a given system at some particular time but the results will be spot on if we observe the system for a long enough time.
