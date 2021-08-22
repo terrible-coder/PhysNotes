@@ -1,5 +1,5 @@
 created: 20210822062851098
-modified: 20210822130150042
+modified: 20210822170322587
 tags: [[Thermodynamic variables]]
 title: Extensive parameters
 type: text/vnd.tiddlywiki
@@ -13,6 +13,17 @@ N = N_1 + N_2 + \dots + N_r
 $$
 The parameters which have this additive property are called //extensive parameters//. It is clear from both approaches that these variables depend on the size of the system.
 
-<$details summary="Examples">
-I am gonna show some examples here. They will be under multiple tabs.
+<$details summary="Mathematical consequence">
+Let's say $$F$$ is some extensive property. In general, $$F$$ would be a function of some intensive parameters $${a_i}$$ and some extensive parameters $${A_j}$$.
+$$
+F \equiv F({a_i}, {A_j})
+$$
+If the system is scaled by a factor $$\lambda$$, then
+$$
+F({a_i}, {\lambda A_j}) = \lambda F({a_i}, {A_j})
+$$
+This is equivalent to saying that extensive parameters are homogenous functions of degree 1 with respect to $${A_j}$$. From Euler's homogeneous function theorem we get,
+$$
+F({a_i}, {A_j}) = \sum_j A_j \left( \frac{\partial F}{\partial A_j} \right)
+$$
 </$details>
