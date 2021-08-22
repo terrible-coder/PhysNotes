@@ -1,5 +1,5 @@
 created: 20210822062851098
-modified: 20210822095305370
+modified: 20210822130150042
 tags: [[Thermodynamic variables]]
 title: Extensive parameters
 type: text/vnd.tiddlywiki
@@ -12,3 +12,7 @@ V = V_1 + V_2 + \dots + V_r \\
 N = N_1 + N_2 + \dots + N_r
 $$
 The parameters which have this additive property are called //extensive parameters//. It is clear from both approaches that these variables depend on the size of the system.
+
+<$details summary="Examples">
+I am gonna show some examples here. They will be under multiple tabs.
+</$details>
