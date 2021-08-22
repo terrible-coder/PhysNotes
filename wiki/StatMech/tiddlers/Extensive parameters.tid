@@ -1,0 +1,14 @@
+created: 20210822062851098
+modified: 20210822095305370
+tags: [[Thermodynamic variables]]
+title: Extensive parameters
+type: text/vnd.tiddlywiki
+
+Imagine a system defined by the appropriate [[thermodynamic variables|Thermodynamic variables]]. Let us divide the system into 2 //halves// with the aid of an adiabatic wall such that the masses contained in the subsystems are equal. We now measure the thermodynamic variables of the subsystems. The parameters which get halved are called //extensive parameters//.
+
+Another way to understand the behaviour of extensive parameters is by imagining $$r$$ number of systems with volumes and numbers of particles given by $$V_1~N_1$$, $$V_2~N_2$$, ... ,$$V_r~N_r$$. These systems are separated from each other by adiabatic walls. Now, all the walls are removed simultaneously such that all the systems now together form a large, single system. Obviously the volume and number of particles in this system will be
+$$
+V = V_1 + V_2 + \dots + V_r \\
+N = N_1 + N_2 + \dots + N_r
+$$
+The parameters which have this additive property are called //extensive parameters//. It is clear from both approaches that these variables depend on the size of the system.
