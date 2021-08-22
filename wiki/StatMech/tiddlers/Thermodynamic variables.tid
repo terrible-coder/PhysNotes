@@ -1,5 +1,5 @@
 created: 20210821073629007
-modified: 20210821080917557
+modified: 20210821135808861
 tags: Thermodynamics
 title: Thermodynamic variables
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ For the case of a single particle in 3D, like we just saw, we only need 6 coordi
 
 In thermodynamics we deal with very large systems, with number of particles being equal to the order of $$10^{23}$$. To use the classical dynamical definition of a state would be rather inconvenient, impractically even to specify $$6N$$ number of variables. However, since thermodynamics cares only about average properties of the system, it is unnecessary to study the motion of each particle.
 
-This is why we introduce variables which give us the average behaviour of the system. The result of the microscopic variations over long enough periods of times.
+This is why we introduce variables which give us the average behaviour of the system. The result of the microscopic variations over long enough periods of times. Few of these variables [[depend on the size of the system|Extensive parameters]], a few of them [[do not depend on size|Intensive parameters]]. These form conjugate pairs to give us a work done value.
