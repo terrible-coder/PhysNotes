@@ -1,0 +1,17 @@
+created: 20210821080940318
+modified: 20210821083648468
+tags: [[Thermodynamic variables]]
+title: Scale of systems
+type: text/vnd.tiddlywiki
+
+It is common for us to work with differential terms in thermodynamics. However, we rarely stop to think about what it means physically.
+
+Let us recall what it means mathematically. If we have a quantity like volume, $$V$$, the differential $$dV$$ is expected to be of very small magnitude, an infinitesimal value. In fact, it is so small that it is a number greater than zero but smaller than all positive real numbers. Definitions in mathematics can be hard to understand but surely that kind of definition makes no sense in thermodynamics.
+
+Thermodynamics is supposed to be a study of average values of quantities caused by motion of //physical// particles. These particles, molecules or atoms or even electrons, are surely not of infinitesimal dimension! They have measurably finite dimensions. Therefore, suggesting that our $$dV$$ is smaller than the smallest units of our system is not going to work.
+
+The obvious answer then is to define our $$dV$$ in thermodynamics to be of the order of the volume of the smallest units of our system. Indeed, that is the kind of definition which will give meaning to the maths in physics.
+
+The example of differential volume is the easiest to understand. This idea can be applied in general to all the differential quantities we encounter in thermodynamics and other branches of physics. Differential pressure, $$dP$$, can be thought of as the pressure that a single particle is capable of applying. Differential number of particles, $$dN$$, can be thought of as a single particle in the system.
+
+One might say that changing definitions of mathematical concepts might mess with our mathematical rigour and, therefore, our results. However, it does not. The reason being the largeness of our systems. If we have $$N \sim 10^{23}$$ number of particles in our system, which is typical, then saying that $$dN \sim 1$$ is good enough. One can imagine why we would avoid having $$dN$$ be less than unity. Since our systems are so large, treating these large scales to be "infinite" gives our finite differentials a //sense// of being infinitesimal compared to the infinite scale.

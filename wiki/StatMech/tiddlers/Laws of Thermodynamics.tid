@@ -1,0 +1,50 @@
+created: 20210820184639632
+modified: 20210820191229477
+tags: Thermodynamics
+title: Laws of Thermodynamics
+type: text/vnd.tiddlywiki
+
+! Zeroth Law of Thermodynamics
+
+<<<
+If two bodies are in thermal equilibrium with a third body separately then the two bodies are in thermal equilibrium with each other.
+<<<
+This law defines the transitive property of thermal equilibrium, that is, the transitive property of the temperature value.
+
+If $$A$$, $$B$$ and $$C$$ be three systems with temperatures $$T_A$$, $$T_B$$ and $$T_C$$ respectively then
+$$
+T_A = T_C ~~~~ \text{and} ~~~~ T_B = T_C \\
+\implies T_A = T_B
+$$
+
+! First Law of Thermodynamics
+
+<<<
+The variation of energy of a system during any transformation is equal to the amount of energy that the system receives from its environment.
+<<<
+It is essentially the statement of conservation of energy of a system.
+
+If $$dU$$ be the energy of the system and $$\delta Q$$ and $$\delta W$$ be the heat received by the system and the work done on the system,
+$$
+dU = \delta Q - \delta W
+$$
+
+! Second Law of Thermodynamics
+<<<
+A transformation whose only final result is to transform into work heat extracted from a source which is at the same temperature throughout is impossible.
+
+- Lord Kelvin's statement
+<<<
+
+<<<
+A transformation whose only final result is to transfer heat from a body at a given temperature to a body at a higher temperature is impossible.
+
+- Clausius statement
+<<<
+This law tells us that perpetual motion machines are impossible.
+
+! Third Law of Thermodynamics
+<<<
+The entropy of every system at absolute zero can always be taken equal to zero.
+<<<
+As a consequence of this law we realise that the absolute zero temperature can never be reached practically.

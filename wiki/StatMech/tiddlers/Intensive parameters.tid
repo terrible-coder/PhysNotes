@@ -1,0 +1,15 @@
+created: 20210822094243796
+modified: 20210822095452155
+tags: [[Thermodynamic variables]]
+title: Intensive parameters
+type: text/vnd.tiddlywiki
+
+It is best to take the example of the thermodynamic variable temperature. Imagine 2 systems separated by an adiabatic wall. Both systems are at the same temperature $$T$$. If we now remove the wall, we measure the temperature of this new composite system. Unlike parameters like [[volume and energy|Extensive parameters]], the temperature would still be $$T$$. We can start to sense that parameters like $$T$$ do not depend on the size of the system.
+
+Even if the two systems were at different temperatures, $$T_1$$ and $$T_2$$, before removing the adiabatic wall, the temperature of the composite system after removing the wall is not the additive sum.
+$$
+T \neq T_1 + T_2
+$$
+This result holds in general, even if we have more than two systems initially, each at some distinct temperature.
+
+The parameters which do not have this additive property are called //intensive parameters//. Clearly, they do not change depending on the size of the system.
