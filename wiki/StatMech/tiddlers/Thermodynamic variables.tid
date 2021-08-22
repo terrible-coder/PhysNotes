@@ -1,0 +1,15 @@
+created: 20210821073629007
+modified: 20210821135808861
+tags: Thermodynamics
+title: Thermodynamic variables
+type: text/vnd.tiddlywiki
+
+To understand what thermodynamic variables are useful for it might be better to look at an example first.
+
+Consider a single particle. Newtonian mechanics gives us a second order differential equation to be able to solve for the particle. Given only the particle's position and momentum at //any// point in time allows us to look into the past and the future of the particle's trajectory. In general we seldom work with the [[dynamics of a single particle|https://terrible-coder.github.io/PhysNotes/wiki/ClassMech]]. Instead, we have a large number of particles.
+
+For the case of a single particle in 3D, like we just saw, we only need 6 coordinates (3 of position and 3 of momentum). If our system has $$N$$ particles, however, the number of variables needed to completely describe the state of the system is now $$6N$$.
+
+In thermodynamics we deal with very large systems, with number of particles being equal to the order of $$10^{23}$$. To use the classical dynamical definition of a state would be rather inconvenient, impractically even to specify $$6N$$ number of variables. However, since thermodynamics cares only about average properties of the system, it is unnecessary to study the motion of each particle.
+
+This is why we introduce variables which give us the average behaviour of the system. The result of the microscopic variations over long enough periods of times. Few of these variables [[depend on the size of the system|Extensive parameters]], a few of them [[do not depend on size|Intensive parameters]]. These form conjugate pairs to give us a work done value.

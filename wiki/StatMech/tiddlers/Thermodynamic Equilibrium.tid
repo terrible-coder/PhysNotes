@@ -1,0 +1,19 @@
+created: 20210821071144153
+modified: 20210821073418830
+tags: Thermodynamics
+title: Thermodynamic Equilibrium
+type: text/vnd.tiddlywiki
+
+Not all states in thermodynamics are of particular interest, neither are these states "measurable". Since thermodynamics ignores the microscopic details of a system, the thermodynamic variables convey meaningful properties only when they can be used to describe the system as a whole.
+
+Let us take for example a gas is in some state where the pressure value is different at different parts of the gas. In such a case, no single value of the thermodynamic variable $$p$$ can be meaningfully assigned to the whole system. In these states, all the thermodynamic variables can be completely independent of each other. They might show certain relationships locally but they do not apply to the entire system. These are referred to as the //non-equilibrium states//.
+
+A thermodynamic equilibrium is a very strict sense of equilibrium. A system must have
+
+# //Mechanical equilibrium//: There are no unbalanced forces or torques within the system and also none between the system and its surroundings.
+# //Chemical equilibrium//: There are no changes in the internal structure of the particles such as a chemical reaction, nor is there transfer of matter from one part of the system to another, or between the system and surroundings, such as in diffusion, no matter how slow.
+# //Thermal equilibrium//: There is no exchange of heat between the system and its surroundings.
+
+It is easy to see that if any of the above conditions are not met then the system will tend to go through a change of its thermodynamic variables and have a //transition of state//. The change will, clearly, be a tendency to move towards the respective equilibriums. Only when all 3 conditions are satisfied we say that the system is in //thermodynamic equilibrium//.
+
+Equilibrium states are far easier to deal with. In fact, within the realm of thermodynamics, those are the only states we shall deal with. At equilibrium states, the thermodynamic variables do not change as long as the external conditions remain the same.

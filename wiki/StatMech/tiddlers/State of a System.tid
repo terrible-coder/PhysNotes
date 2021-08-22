@@ -1,0 +1,18 @@
+created: 20210821063907492
+modified: 20210821073609031
+tags: Thermodynamics
+title: State of a System
+type: text/vnd.tiddlywiki
+
+Consider the case of a single particle in classical mechanics. The state of the particle can be completely described by mentioning its position and momentum. For a system of $$n$$ particles, the number of coordinates required to completely describe a state is $$6n$$.
+
+In much the same way, in thermodynamics, we look at thermodynamic variables. These variables describe the macroscopic average measurable quantities of the system.
+
+For a mechanical system, the pressure $$p$$ and volume $$V$$. For chemical systems exchanging matter, the chemical potential $$\mu$$ and number of particles $$N$$. For a calorimetric system, the temperature $$T$$.
+
+These [[thermodynamic variables|Thermodynamic variables]] are sufficient to describe the state of a thermodynamic system. Even though these variables are independent of each other in general, at measurable states, they are not. They are connected by an //equation of state// of the general form:
+$$
+f(p, V, T) = 0
+$$
+
+The most interesting states in thermodynamics are [[states of equilibrium|Thermodynamic Equilibrium]]. These states have the special property that the thermodynamic variables remain constant for as long as the external conditions are constant.
