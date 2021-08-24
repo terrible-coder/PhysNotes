@@ -1,0 +1,19 @@
+created: 20210824163434964
+modified: 20210824164312335
+tags: [[Newton's Laws]]
+title: Force
+type: text/vnd.tiddlywiki
+
+[[Newton's second law|Newton's Laws]] gives us a quantity called force. The law itself only tells us that this "force" is directly proportional to the rate of change of momentum. So, the mathematical statement of the second law should look something like,
+$$
+\vec{F} \propto \frac{d\vec{p}}{dt} \\
+~~~~~~ = k \frac{d\vec{p}}{dt}
+$$
+where $$k$$ is a constant of proportionality. However, using suitable units, we can choose $$k = 1$$. Giving us the familiar,
+$$
+\vec{F} = \frac{d\vec{p}}{dt} \\
+~~~~~~~~~~~~ = \frac{d}{dt}(m\vec{v}) \\
+~~~~~~~ = m \frac{d\vec{v}}{dt} \\
+~~~ = m\vec{a}
+$$
+The //most important assumption// made before arriving at the last is that in most cases we deal with, the mass of the object remains //constant//.
