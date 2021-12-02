@@ -1,0 +1,22 @@
+created: 20210819154525805
+modified: 20210824162741963
+tags: [[Dynamics of a Particle]]
+title: Position vector
+type: text/vnd.tiddlywiki
+
+After we have chosen a suitable frame of reference, it is important to define what a position vector really is.
+
+We choose a fixed point in our frame and label it as the //origin// $$O$$. Now we choose 3 mutually perpendicular lines which originate from this point $$O$$ and label them $$x$$, $$y$$ and $$z$$. We call these the //axes// of our system. The axes, together with the origin, form the coordinate system of our frame of reference.
+
+If we stretch out our thumb, index finger and our middle finger at right angles to each other and it looks like our system of axes we just created then we call it a right handed coordinate system. If it looks like the stretched out fingers of the left hand instead then we call the system a left handed coordinate system. For the purposes of this discussion, we shall be working only with a right handed system.
+
+Now let us say that the position of the particle under study is characterised by some point $$P(x, y, z)$$ in our coordinate system. The vector $$\vec{OP}$$ will be called the position vector of the particle. It is common to refer to the position vector as a radius vector which gives us the notation
+$$
+\vec{r} = \vec{OP}
+$$
+
+More often than not our radius vector will not be constant because the particle will not be at rest. In such cases it is common for the radius vector to be parameterised by some variable like time or arc length.
+$$
+\vec{r} \equiv \vec{r}(t)
+~~~~~~~~ \text{or} ~~~~~~~~ \vec{r} \equiv \vec{r}(s)
+$$

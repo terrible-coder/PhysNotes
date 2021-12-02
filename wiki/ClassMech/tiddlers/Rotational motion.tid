@@ -1,0 +1,26 @@
+created: 20210824170733452
+modified: 20210824171719902
+tags: [[Dynamics of a Particle]]
+title: Rotational motion
+type: text/vnd.tiddlywiki
+
+If a particle is moving through space, when viewed from a fixed point it might apparently exhibit partly rotational motion. Like quantities describing linear motion, there are analogous quantities which describe rotational motion.
+
+!! Angular momentum
+$$
+\vec{L} = \vec{r} \times \vec{p}
+$$
+
+!! Torque
+$$
+\vec{N} = \vec{r} \times \vec{F}
+$$
+
+Now,
+$$
+~~~~~~~~~~~~~~~~~~~ \frac{d}{dt}\vec{L} = \frac{d}{dt} (\vec{r} \times \vec{p}) \\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~= \dot{\vec{r}} \times m\dot{\vec{r}} + \vec{r} \times \dot{\vec{p}} \\
+~~~~~~~~~~~~~~~~~~~~~= \vec{r} \times \vec{F} \\
+\implies \dot{\vec{L}}= \vec{N}
+$$
+That is exactly analogous to [[Newton's Second law|Newton's Laws]].
