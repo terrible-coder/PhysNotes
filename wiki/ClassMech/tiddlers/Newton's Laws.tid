@@ -1,5 +1,5 @@
 created: 20210818081331523
-modified: 20210819063743488
+modified: 20210824163242778
 tags: Index [[Classical Mechanics]]
 title: Newton's Laws
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ This law gives us the concept of inertia. Any object will try to retain its stat
 ! Newton's Second Law of Motion
 
 <<<
-Force is directly proportional to the rate of change of momentum and the direction of the force is given by the direction in which the momentum changes.
+Force is directly proportional to the rate of change of momentum and the direction of the force is given by the direction in which the [[momentum|Kinematics]] changes.
 <<<
 This law is of fundamental importance in the entire regime of classical physics.
 

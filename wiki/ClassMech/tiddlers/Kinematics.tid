@@ -1,0 +1,19 @@
+created: 20210824162711403
+modified: 20210824163410578
+tags: [[Dynamics of a Particle]]
+title: Kinematics
+type: text/vnd.tiddlywiki
+
+Describing the motion of a particle requires more than mentioning just the [[position vector|Position vector]] of the particle. We need to have some quantities to describe the current //state// of of its motion. We define velocity to be one such quantity.
+
+If $$\vec{r}$$ be the radius vector of the particle, the velocity is defined simply as the rate of change of the position.
+$$
+\vec{v} = \frac{d\vec{r}}{dt}
+$$
+Similarly, another quantity which gives an idea about the "motion" of the object is momentum $$p$$ which is defined as
+$$
+\vec{p} = m\vec{v}
+$$
+where $$m$$ is the mass of the particle.
+
+The momentum becomes far more useful than simply the velocity as we deal with more and more complex systems. Momentum also gives us a measure of the //inertia// of a body.
