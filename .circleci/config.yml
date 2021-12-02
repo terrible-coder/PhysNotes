@@ -60,14 +60,18 @@ workflows:
       - prep:
           filters:
             branches:
-              only: main
+              only:
+                - main
+                - staging
 
       - build:
           requires:
             - prep
           filters:
             branches:
-              only: main
+              only:
+                - main
+                - staging
 
       - gh-page:
           requires:
