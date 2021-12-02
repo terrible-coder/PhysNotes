@@ -1,0 +1,23 @@
+created: 20210824164601502
+modified: 20210824170543157
+tags: [[Position vector]]
+title: Derivatives of position vector
+type: text/vnd.tiddlywiki
+
+Zeroth order, position, $$\vec{r}$$
+
+First order, velocity, $$\vec{v} = \frac{d}{dt}\vec{r} \equiv \dot{\vec{r}}$$
+
+Second order, acceleration, $$\vec{a} = \frac{d^2}{dt^2}\vec{r} \equiv \ddot{\vec{r}}$$
+
+Third order, jerk, $$\vec{j} = \frac{d^3}{dt^3}\vec{r}$$
+
+A simple Taylor's series expansion gives us,
+$$
+\vec{r}(t) = \vec{r}(0) + \frac{d\vec{r}}{dt}(0) t + \frac{1}{2!}\frac{d^2\vec{r}}{dt^2}(0) t^2 + \frac{1}{3!}\frac{d^3\vec{r}}{dt^3}(0) t^3 + \dots
+$$
+
+The first equation of motion can be obtained from this Taylor series by assuming that derivatives of the order higher than 2 are very small. Therefore, truncating the series at the second order term for acceleration.
+$$
+\vec{x} = \vec{x_0} + \vec{u}t + \frac12 \vec{a}t^2
+$$
