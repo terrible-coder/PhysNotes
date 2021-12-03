@@ -1,0 +1,50 @@
+created: 20211203120049287
+modified: 20211203142747331
+tags: [[2nd Law]]
+title: Equivalence of Kelvin and Clausius Statement
+type: text/vnd.tiddlywiki
+
+Both the Kelvin and Clausius statements of the Second law are equivalent. This can be quickly proven by showing that violating any of the two statements would violate the other.
+
+Let us start out by considering that our systems will work between the temperatures $$T_H$$ and $$T_C$$ ($$T_H > T_C$$).
+
+''Violating Kelvin'':
+[img [Kelvin violator.jpeg]]
+Let us consider an engine that violates Kelvin's statement (KV). That is, it absorbs heat $$Q_H$$ from the reservoir at $$T_H$$ and converts all of that into work $$W$$. That is,
+$$
+W = Q_H
+$$
+Now, we consider a refrigerator (R) that absorbs some heat $$Q_C$$ from the reservoir at $$T_C$$. With the help of the work $$W$$ it releases some amount of heat $$Q'$$ to reservoir at $$T_H$$. That is,
+$$
+\begin{align*}
+-W &= -Q' + Q_C \\
+\implies -Q' &= -Q_H - Q_C
+\end{align*}
+$$
+If we now consider a composite system of KV+R. The heat absorbed by it from $$T_H$$,
+$$
+\begin{align*}
+Q_H' &= Q_H - Q' \\
+    &= -Q_C
+\end{align*}
+$$
+and the heat released to $$T_C$$ is still $$Q_C$$. This is a refrigerator that violates the Clausius statement.
+
+''Violating Clausius'':
+[img [Clausius violator.jpeg]]
+Let us consider a refrigerator that violates Clausius' statement (CV). That is, it absorbes heat $$Q_C$$ from the reservoir at $$T_C$$ and releases all of the heat to the reservoir at $$T_H$$. That is,
+$$
+Q_H = - Q_C
+$$
+Now, consider an engine (E) that absorbs heat $$Q_H$$ from $$T_H$$ and does work $$W$$ after discarding heat $$Q_C$$ to $$T_C$$. That is,
+$$
+W = Q_H - Q_C
+$$
+If we now consider the composite system (CV+E), the heat absorbed from $$T_H$$ is $$Q_H - Q_C$$. The heat released to $$T_C$$,
+$$
+\begin{align*}
+Q_C' &= Q_H - Q_C - W \\
+  &= 0
+\end{align*}
+$$
+This is an engine that violates the Kelvin statement.

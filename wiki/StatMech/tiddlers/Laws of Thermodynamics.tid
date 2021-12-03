@@ -1,5 +1,5 @@
 created: 20210820184639632
-modified: 20210820191229477
+modified: 20211203120045134
 tags: Thermodynamics
 title: Laws of Thermodynamics
 type: text/vnd.tiddlywiki
@@ -13,8 +13,10 @@ This law defines the transitive property of thermal equilibrium, that is, the tr
 
 If $$A$$, $$B$$ and $$C$$ be three systems with temperatures $$T_A$$, $$T_B$$ and $$T_C$$ respectively then
 $$
-T_A = T_C ~~~~ \text{and} ~~~~ T_B = T_C \\
-\implies T_A = T_B
+\begin{align*}
+T_A &= T_C  & \text{and}& & T_B &= T_C \\
+\implies T_A &= T_B
+\end{align*}
 $$
 
 ! First Law of Thermodynamics
@@ -41,7 +43,7 @@ A transformation whose only final result is to transfer heat from a body at a gi
 
 - Clausius statement
 <<<
-This law tells us that perpetual motion machines are impossible.
+This law tells us that perpetual motion machines are impossible. Both the statements are [[equivalent|Equivalence of Kelvin and Clausius Statement]].
 
 ! Third Law of Thermodynamics
 <<<
