@@ -1,0 +1,9 @@
+created: 20211206113819384
+modified: 20211206114541178
+tags: [[Postulates of Thermodynamics]]
+title: Postulate I
+type: text/vnd.tiddlywiki
+
+> There exists particular states, called equilibrium states, of systems which are macroscopically characterised completely by the intensive parameters, that is, the internal energy $$U$$, volume $$V$$, number of particles $$N$$ and so on.
+
+This postulate tells us how equilibrium states can be identified for a system. Once we have established the existence of the //measurable// states, we are in a position to use our measurements and apply the theory.

@@ -1,0 +1,36 @@
+created: 20211206130019922
+modified: 20211206131510447
+tags: [[Postulates of Thermodynamics]]
+title: Postulate III
+type: text/vnd.tiddlywiki
+
+> The entropy of a composite system is additive over the constituent subsystems. The entropy is continuous and differentiable and is a monotonically increasing function of the energy.
+
+This postulate has quite a few important consequences on the nature of function that entropy is. We can take the statement apart one part at a time to analyse them.
+
+The ''additive property'' means,
+$$
+S = \sum_i S_i
+$$
+and we know,
+$$
+S_i \equiv S_i (U_i, V_i, N_i, \dots)
+$$
+Since entropy is a function of extensive parameters, which are themselves additive in nature, we must conclude that the entropy function is a homogenous first order function. That is,
+$$
+S(\lambda U, \lambda V, \lambda N, \dots) = \lambda S(U, V, N, \dots)
+$$
+
+The ''monotonically increasing'' property means that,
+$$
+\frac{\partial S}{\partial U} \geqslant 0
+$$
+The same is true for the derivative with respect to the other extensive parameters. The implication is exactly the conclusion of the [[Second Law of Thermodynamics]], that is, $$\Delta S \geqslant 0$$.
+
+Since the function is ''continuous and differentiable'' and monotonically increasing, it is always possible to invert the fundamental relation from an entropy representation to an energy representation. That is,
+$$
+\begin{align*}
+S &\equiv S(U, V, N, \dots) \\
+U &\equiv U(S, V, N, \dots)
+\end{align*}
+$$

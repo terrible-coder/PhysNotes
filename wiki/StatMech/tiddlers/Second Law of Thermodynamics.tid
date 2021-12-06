@@ -1,0 +1,22 @@
+created: 20211206111342744
+modified: 20211206111343154
+tags: [[Laws of Thermodynamics]]
+title: Second Law of Thermodynamics
+type: text/vnd.tiddlywiki
+
+! Second Law of Thermodynamics
+<<<
+A transformation whose only final result is to transform into work heat extracted from a source which is at the same temperature throughout is impossible.
+
+- Lord Kelvin's statement
+<<<
+
+<<<
+A transformation whose only final result is to transfer heat from a body at a given temperature to a body at a higher temperature is impossible.
+
+- Clausius statement
+<<<
+This law tells us that perpetual motion machines are impossible. Both the statements are [[equivalent|Equivalence of Kelvin and Clausius Statement]]. The second law also establishes a //monotonically increasing// state function entropy, $$S$$,
+$$
+dS = \frac{\delta Q}T \quad \text{and} \quad \Delta S \geqslant 0
+$$

@@ -1,0 +1,17 @@
+created: 20211206111308360
+modified: 20211206111308797
+tags: [[Laws of Thermodynamics]]
+title: First Law of Thermodynamics
+type: text/vnd.tiddlywiki
+
+! First Law of Thermodynamics
+
+<<<
+The variation of energy of a system during any transformation is equal to the amount of energy that the system receives from its environment.
+<<<
+It is essentially the statement of conservation of energy of a system.
+
+If $$dU$$ be the energy of the system and $$\delta Q$$ and $$\delta W$$ be the heat received by the system and the work done on the system,
+$$
+dU = \delta Q - \delta W
+$$

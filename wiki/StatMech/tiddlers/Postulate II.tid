@@ -1,0 +1,17 @@
+created: 20211206114550559
+modified: 20211206130014134
+tags: [[Postulates of Thermodynamics]]
+title: Postulate II
+type: text/vnd.tiddlywiki
+
+> There exists a function (called the entropy $$S$$) of the extensive parameters of any composite system, defined for all equilibrium states; the equilibrium values of the //unconstrained// intensive parameters are such that the entropy function is maximised.
+
+This is taking inspiration from classical mechanics where we extremise certain functions (the //Lagrangian// and the //Hamiltonian//) to calculate the value of other variables. Here, in the case of thermodynamics, we are postulating that such a function exists and we call it the //entropy//.
+
+It is interesting to note the use of the word "unconstrained" in the statement.
+
+Let us consider two subsystems forming a closed composite system. The two subsystems are separated by an adiabatic wall. For particular values of the internal energies $$U_1$$ and $$U_2$$, the composite system is in equilibrium, constrained by the condition,
+$$
+U_1 + U_2 = U = \text{const}
+$$
+The constraint is imposed by the adiabatic wall. If we now remove the constraint, that is, if we replace the adiabatic wall by a diathermal wall, the composite system will come to a new kind of equilibrium where the values of $$U_1$$ and $$U_2$$ will be such that it maximises $$S$$. Therefore, in the absence of the constraint, the internal energy is such that it maximises entropy.

@@ -1,0 +1,12 @@
+created: 20211206131534643
+modified: 20211206131847460
+tags: [[Postulates of Thermodynamics]]
+title: Postulate IV
+type: text/vnd.tiddlywiki
+
+> The entropy of any system vanishes in the state for which
+> $$
+\frac{\partial U}{\partial S} = 0
+$$
+
+As one can see, this is is equivalent to the [[Third Law of Thermodynamics]].

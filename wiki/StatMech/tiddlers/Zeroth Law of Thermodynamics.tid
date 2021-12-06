@@ -1,0 +1,18 @@
+created: 20211206111207966
+modified: 20211206111208478
+tags: [[Laws of Thermodynamics]]
+title: Zeroth Law of Thermodynamics
+type: text/vnd.tiddlywiki
+
+! Zeroth Law of Thermodynamics
+
+<<<
+If two bodies are in thermal equilibrium with a third body separately then the two bodies are in thermal equilibrium with each other.
+<<<
+This law defines the transitive property of thermal equilibrium, that is, the transitive property of the temperature value.
+
+If $$A$$, $$B$$ and $$C$$ be three systems with temperatures $$T_A$$, $$T_B$$ and $$T_C$$ respectively then
+$$
+T_A = T_C  \quad \text{and} \quad T_B = T_C \\
+\implies T_A = T_B \quad\quad
+$$

@@ -1,0 +1,17 @@
+created: 20211206111956058
+modified: 20211206113209567
+tags: Thermodynamics
+title: Principles of Thermodynamics
+type: text/vnd.tiddlywiki
+
+The entire subject of thermodynamics is driven by the single core problem of measurement of the equilibrium states of a //closed system//. The way a closed system evolves from one equilibrium state to another is at the heart of the subject.
+
+Why would a system transition from one equilibrium state to another, one might ask. A good way to understand this is to consider a composite system which is closed and made up of two subsystems separated by a movable wall. These subsystems will come to an equilibrium with each other eventually. However, if we now remove the separating wall, then the entire system as a whole will evolve to a new state of equilibrium. This evolution is what we seek to study.
+
+The theory of the subject matter can be developed in two ways:
+
+The classical way is to lay down the [[laws of thermodynamics|Laws of Thermodynamics]] and work our way from there. These laws are derived more from physical experiences than from theoretical rigour.
+
+The modern method is to write down a few [[postulates of thermodynamics|Postulates of Thermodynamics]] which are equally good for us to derive the entire theory from.
+
+We shall see, in the theory of statistical mechanics, that the laws and the postulates can indeed be derived using theoretical rigour rather than relying solely on practical experiences.
