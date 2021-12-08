@@ -1,0 +1,31 @@
+created: 20211208122800590
+modified: 20211208133143609
+tags: [[Statistical Mechanics]]
+title: Ergodic Hypothesis
+type: text/vnd.tiddlywiki
+
+Maxwell and Boltzmann worked on stationary systems which included the special case of ergodic systems. As we have seen, the statistical description of a system requires us to evaluate the time average of different quantities. However, since we do not know the exact trajectory of the $$10^{23}$$ particles, it is very difficult to actually evaluate such averages.
+
+The clever thing about the Ergodic Hypothesis is that it says that an [[ensemble|The Ensemble]] average over the phase space of a system is equal to the time average.
+
+$$
+\braket{A}_{time} = \lim_{t \rightarrow \infty} \frac1t \int A(q, p) d\tau
+$$
+
+$$
+\braket{A}_{ensemble} = \frac{ \int A(q, p) \rho(q, p, t)~ d^nq~d^np }{ \int \rho(q, p, t)~ d^nq~d^np }
+$$
+where $$\rho(q,p,t)$$ is the [[probability density function|Liouville's Theorem]] in the phase space.
+
+The Ergodic Hypothesis suggests that
+$$
+\braket{A}_{time} = \braket{A}_{ensemble}
+$$
+
+The most important assumptions here are:
+
+* the average over //long enough// time ($$t\rightarrow\infty$$) such that
+* the system can pass through all accessible phase space points with
+* equal probability of going through every point.
+
+The rigorous proof of this hypothesis is difficult.

@@ -1,0 +1,37 @@
+created: 20211208134441774
+modified: 20211208145319068
+tags: 
+title: Consequences of Liouville's Theorem
+type: text/vnd.tiddlywiki
+
+Since our density function is given by $$\rho(q, p, t)$$, it makes sense that the ensemble average of any quantity will be calculated as,
+$$
+\braket{A} =  \frac{ \int A(q, p) \rho(q, p, t)~ d^nq~d^np }{ \int \rho(q, p, t)~ d^nq~d^np }
+$$
+In general, the ensemble average can be a function of time. However, since we are mostly interested in equilibrium quantities, the average values must remain static. This can be guaranteed if
+$$
+\frac{\partial \rho}{\partial t} = 0
+$$
+
+We also want our continuity equation to hold,
+$$
+\frac{\partial \rho}{\partial t} + \{ \rho, \mathcal{H} \} = 0
+$$
+
+The only way to satisfy both, obviously, is $$ \{ \rho, \mathcal{H} \}=0$$. This can be realised in two ways.
+
+# If we expand the Poisson bracket, $$
+    \{ \rho, \mathcal{H} \} = \frac{\partial \rho}{\partial q}\frac{\partial \mathcal{H}}{\partial p} - \frac{\partial \rho}{\partial p}\frac{\partial \mathcal{H}}{\partial q}
+  $$ This expression can be made zero if $$\rho$$ does not have any dependence on the coordinates or momenta. That is, $$
+  \rho(q, p, t) = \text{const.}
+$$
+
+# If the density function is a function of the Hamiltonian, $$\rho(q, p, t) \equiv \rho(\mathcal{H})$$. This can be shown easily, $$
+  \begin{align*}
+  \{ \rho, \mathcal{H} \} &= \frac{\partial \rho}{\partial q}\frac{\partial \mathcal{H}}{\partial p} - \frac{\partial \rho}{\partial p}\frac{\partial \mathcal{H}}{\partial q} \\
+    &= \frac{\partial \rho}{\partial \mathcal{H}}\frac{\partial \mathcal{H}}{\partial q}\frac{\partial \mathcal{H}}{\partial p} - \frac{\partial \rho}{\partial \mathcal{H}}\frac{\partial \mathcal{H}}{\partial p}\frac{\partial \mathcal{H}}{\partial q} \\
+    &= 0
+  \end{align*}
+  $$
+
+Different ensembles have different forms of $$\rho$$ to satisfy the condition.

@@ -1,0 +1,24 @@
+created: 20211208132901868
+modified: 20211208152608655
+tags: [[The Ensemble]]
+title: Liouville's Theorem
+type: text/vnd.tiddlywiki
+
+When we consider an ensemble, it is easy to visualise the members of the ensemble as representative phase points. The phase points will have their own evolution as time progresses, that is, they move along their own trajectories. A convenient way to study the behaviour of these points is with the help of a density function $$\rho(q, p, t)$$. This function is such that the number of points in the volume element $$d^nqd^np$$ around the point $$(q, p)$$ in phase space is given by $$\rho(q, p, t)~d^nqd^np$$.
+
+With the help of this density function, we can look at the phase points moving along their trajectories as fluid particles. Since the phase space does not have any source or sink, we can write the fluid continuity equation,
+$$
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
+$$
+
+It can also be written as,
+$$
+\frac{d\rho}{dt} = \frac{\partial \rho}{\partial t} + \{ \rho, \mathcal{H} \} = 0
+$$
+where $$\{ \cdot, \cdot \}$$ represents the Poisson brackets.
+
+<$details summary="See how">
+{{Proof/Liouville}}
+</$details>
+
+See: [[Consequences of Liouville's Theorem]]

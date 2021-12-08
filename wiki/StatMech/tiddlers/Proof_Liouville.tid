@@ -1,0 +1,34 @@
+created: 20211208152137772
+modified: 20211208152442066
+tags: 
+title: Proof/Liouville
+type: text/vnd.tiddlywiki
+
+We can express the velocity as $$\vec{v} = (\dot{q}, \dot{p})$$,
+therefore,
+$$
+\begin{align*}
+\nabla \cdot (\rho \vec{v}) &= \frac{\partial}{\partial q} (\rho \dot{q}) + \frac{\partial}{\partial p} (\rho \dot{p}) \\
+  &= \left( \frac{\partial\rho}{\partial q}\dot{q} + \frac{\partial \rho}{\partial p}\dot{p} \right) + \rho \left( \frac{\partial \dot{q}}{\partial q} + \frac{\partial \dot{p}}{\partial p} \right)
+\end{align*}
+$$
+Now,
+$$
+\begin{align*}
+\frac{\partial \dot{q}}{\partial q} &= \frac{\partial^2 \mathcal{H}}{\partial q \partial p} \quad \text{and} \\
+\frac{\partial \dot{p}}{\partial p} &= -\frac{\partial^2 \mathcal{H}}{\partial p \partial q} \\
+\implies \frac{\partial \dot{q}}{\partial q} + \frac{\partial \dot{p}}{\partial p} &= 0
+\end{align*}
+$$
+Therefore,
+$$
+\begin{align*}
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) &= \frac{\partial \rho}{\partial t} + \frac{\partial\rho}{\partial q}\dot{q} + \frac{\partial \rho}{\partial p}\dot{p} \\
+\implies \frac{\partial \rho}{\partial t} + \frac{\partial\rho}{\partial q}\dot{q} + \frac{\partial \rho}{\partial p}\dot{p} &= \frac{\partial \rho}{\partial t} + \frac{\partial\rho}{\partial q}\frac{\partial \mathcal{H}}{\partial p} - \frac{\partial \rho}{\partial p}\frac{\partial \mathcal{H}}{\partial q} \\
+\implies \frac{d\rho}{dt} &= \frac{\partial \rho}{\partial t} + \{ \rho, \mathcal{H} \}
+\end{align*}
+$$
+That is,
+$$
+\frac{d\rho}{dt} = \frac{\partial \rho}{\partial t} + \{ \rho, \mathcal{H} \} = 0
+$$

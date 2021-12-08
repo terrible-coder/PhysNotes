@@ -1,0 +1,10 @@
+color: #4824ff
+created: 20211208130351602
+modified: 20211208133031267
+tags: [[Statistical Mechanics]]
+title: The Ensemble
+type: text/vnd.tiddlywiki
+
+Any number of microstates of a system can correspond to the same macrostate of the system. Let us imagine now, we take multiple virtual copies of the system. All copies of the system are in the same macrostate, however, in different microstates corresponding to the macrostate. This collection of mental copies of the system as described is called an ensemble.
+
+If we were to picture this on a phase space diagram then each virtual copy would correspond to distinct points on the phase space trajectory of the system. Since we are considering all the copies together, it is going to give us a static picture of the accessible states as compared to a dynamical trajectory of the system.
