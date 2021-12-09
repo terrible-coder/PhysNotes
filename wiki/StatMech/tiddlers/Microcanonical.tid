@@ -1,0 +1,20 @@
+created: 20211209163605265
+modified: 20211209171137961
+tags: [[Statistical Mechanics]] [[Ensemble Theory]]
+title: Microcanonical
+type: text/vnd.tiddlywiki
+
+$$(N,V,E)$$ system
+
+Consider an ensemble of systems which are separated by rigid, adiabatic walls. In such an ensemble, the number of particles in each system, the volume of each system and the energy of each system will remain constant.
+
+Since we want to calculate the number of microstates of available, we allow a small perturbation in energy $$\Delta E$$ such that the system's energy
+$$
+E-\frac12\Delta E < E < E+\frac12\Delta E
+$$
+This defines a hypershell on the phase space. The number of microstates can easily be calculated by evaluating
+$$
+\begin{align*}
+\Omega(E) = \iint_{E-\frac12\Delta E < \frac{p^2}{2m} < E+\frac12\Delta E} d^nq~d^np
+\end{align*}
+$$

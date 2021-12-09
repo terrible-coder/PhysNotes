@@ -1,0 +1,10 @@
+created: 20211209165317806
+modified: 20211209165653445
+tags: [[Statistical Mechanics]]
+title: Bridging the macro and micro
+type: text/vnd.tiddlywiki
+
+This is done by the famous Boltzmann's equation
+$$
+S = k_B \ln \Omega
+$$

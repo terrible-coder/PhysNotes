@@ -1,0 +1,14 @@
+created: 20211209163925070
+modified: 20211209165314493
+tags: Index
+title: The Macro and Micro states
+type: text/vnd.tiddlywiki
+
+In the thermo-statistical theories we typically deal with large systems, typically with the number of particles being of the order of $$10^{23}$$. In such cases, we resort to statistical parameters of the system, that is, uniform average quantities which can be used to describe the entire system.
+
+This is famously called the thermodynamic limit, where we take $$N \rightarrow \infty$$ and $$V \rightarrow \infty$$. In this limit, we find a few [[extensive parameters|Extensive parameters]] which are directly proportional to $$N$$ and $$V$$. So, we can say that these extensive parameters define the system //macroscopically//.
+
+Even if the values of the extensive parameters remain constant, the constituent particles of the system could be in a number of different configurations (a good way to understand "configuration" is by looking at the definition of configuration space where the position $$\vec{q}$$ and velocities $$\dot{\vec{q}}$$ are on independent axes). These different configurations define the system //microscopically//.
+
+
+The job of Statistical Mechanics is to bridge the gap between these two realms of detail.
